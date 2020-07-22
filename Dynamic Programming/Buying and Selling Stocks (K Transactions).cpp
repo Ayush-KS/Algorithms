@@ -6,7 +6,7 @@ public:
         if(!n)
             return 0;
         
-        if(k >n /2) {
+        if(k > n/2) {
             int ans = 0;
             for (int i=1; i<n; ++i){
                 ans += max(prices[i] - prices[i-1],0);
