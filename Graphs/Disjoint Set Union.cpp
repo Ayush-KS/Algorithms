@@ -1,9 +1,9 @@
-class UF {
+class UnionFind {
 public:
     vector<int> parent;
     int numComponents;
 
-    UF(int n) {
+    UnionFind(int n) {
         parent.resize(n + 1, -1);
         numComponents = n;
     }
