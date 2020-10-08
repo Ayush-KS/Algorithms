@@ -16,7 +16,7 @@ void KMP() {
     int len = 0;
     int i = 1;
     while(i < m) {
-        if(str[i] == str[len]) {
+        if(pat[i] == pat[len]) {
             len++;
             lps[i] = len;
             i++;
